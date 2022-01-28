@@ -1,0 +1,103 @@
+body{
+    margin:0 auto;
+    background-color:chartreuse;
+}
+
+.Nav li{
+    list-style-type: none;
+    color: white;
+    display: flex;
+    align-content: center;
+   
+    
+} 
+
+.navigation{
+    display: flex;
+    align-content: center;  
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-left: 0;
+    margin-top: auto ;
+    margin-bottom: auto; 
+    vertical-align: middle;
+}
+
+.Nav {
+    display: flex;
+    flex-direction: column;
+    align-content: center; 
+    margin-right: 75px;
+
+}
+
+
+.title {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.title-items {
+    display: flex;
+    justify-content: center;
+}
+
+.Marg-img {
+    display: flex;
+    justify-content: center;
+
+}
+.work h1{
+    display: flex;
+    justify-content: center;
+} 
+
+#case5 {
+    display: flex; 
+    justify-content: center;
+    
+}
+
+
+.row1 {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    width:px;
+}
+
+.row2 {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    width:px;
+} 
+
+.casestudy {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    flex-direction: column;
+
+} 
+
+h1 {
+    display: flex; 
+    justify-content: center;
+} 
+
+
+@media only screen and  (max-width: 510px) {
+    h1 {
+        color: red;
+    } 
+    .row1 {
+        flex-direction: column;
+    } 
+    .row2 {
+        flex-direction: column;
+    }
+}
